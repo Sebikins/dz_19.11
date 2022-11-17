@@ -1,0 +1,56 @@
+:root {
+    --color-red: red;
+    --color-orange: orange;
+    --color-yellow: yellow;
+    --color-green: green;
+    --color-blue: rgb(41, 41, 233);
+    --color-dark-blue: blue;
+    --color-violet: rgb(113, 7, 113);
+}
+/*блок 1*/
+li {
+    list-style-type: none;
+}
+
+
+li:first-child::before {
+    color: var(--color-red);
+    content: "•";
+}
+li:nth-child(2)::before {
+    color: var(--color-orange);
+    content: "•";
+}
+li:nth-child(3)::before {
+    color: var(--color-yellow);
+    content: "•";
+}
+li:nth-child(4)::before {
+    color: var(--color-green);
+    content: "•";
+}
+li:nth-child(5)::before {
+    color: var(--color-blue);
+    content: "•";
+}
+li:nth-child(6)::before {
+    color: var(--color-dark-blue);
+    content: "•";
+}
+li:last-child::before {
+    color: var(--color-violet);
+    content: "•";
+}
+
+/*блок 2*/
+.poetry {
+ counter-reset: geekov;
+}
+p {
+    padding-inline-start: 1ch;
+}
+p::before {
+    counter-increment: geekov;
+    content: counter(geekov)"- ";
+}
+

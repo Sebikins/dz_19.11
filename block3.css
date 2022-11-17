@@ -1,0 +1,76 @@
+/*блок 3*/
+.lighthouse {
+    
+    
+}
+
+div:last-child {
+    box-sizing: border-box;
+    
+    width: 250px;
+    height: 60px;
+    left: 69px;
+    top: 404px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+}
+div:nth-child(6) {
+    
+    
+    width: 210px;
+    height: 60px;
+    left: 89px;
+    top: 344px;
+    background: #FF0000;
+}
+div:nth-child(5) {
+    box-sizing: border-box;
+
+
+    width: 190px;
+    height: 60px;
+    left: 99px;
+    top: 284px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+div:nth-child(4) {
+    
+    
+    width: 170px;
+    height: 60px;
+    left: 109px;
+    top: 224px;
+
+    background: #FF0000;
+}
+div:nth-child(3) {
+    box-sizing: border-box;
+
+    
+    width: 150px;
+    height: 60px;
+    left: 119px;
+    top: 164px;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+div:nth-child(2) {
+    width: 130px;
+    height: 60px;
+    left: 129px;
+    top: 104px;
+    
+    background: #000000;
+}
+div:first-child {
+    width: 32px;
+    height: 32px;
+    left: 178px;
+    top: 118px;
+    border-radius: 50%;
+    background: #FFEE58;
+}
